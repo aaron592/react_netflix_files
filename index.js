@@ -21,4 +21,12 @@ app.use(cors());
 app.use("/user",userRouter);
 app.use("/videos",videoRouter);
 
-app.listen(https://aaron592.github.io/react_netflix_files);
+let port = process.env.PORT;
+
+if(port == null || port == ""){
+  port = 3000;
+}
+
+app.listen(port,function(){
+  console.log("Server started successfully");
+})
