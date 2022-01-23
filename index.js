@@ -21,4 +21,4 @@ app.use(cors());
 app.use("/user",userRouter);
 app.use("/videos",videoRouter);
 
-app.listen(https://github.com/aaron592/react_netflix_files/edit/main/);
+app.listen(https://aaron592.github.io/react_netflix_files);
