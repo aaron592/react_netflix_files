@@ -6,7 +6,7 @@ const userRouter = require('./controllers/user.js');
 const videoRouter = require('./controllers/video.js');
 const res = require('express/lib/response');
 
-mongoose.connect("mongodb+srv://admin-aaron:Aaronmongodb22@cluster0.fwqni.mongodb.net/test?authSource=admin&replicaSet=atlas-6rbnys-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true/video_stream")
+mongoose.connect("mongodb+srv://admin-aaron:Aaronmongodb22@cluster0.fwqni.mongodb.net/test/video_stream")
 .then(()=>{console.log("Connection Successfull")})
 .catch(()=>{
     console.log("Connection failed");
